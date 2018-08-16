@@ -1,0 +1,52 @@
+body{
+  text-align: justify;
+  text-align: center;
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+}
+.container{
+  column-count: 5;
+  column-gap: 2px;
+  padding-bottom: 40px
+}
+.footer{
+  padding-top: 50px;
+  font-size: 10px
+}
+
+/* Image Transition */
+.image{
+  transition: all .2s ease-in-out;
+ }
+.image:hover{
+  transform: scale(1.1);
+}
+
+
+h3{
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 20px
+}
+ol{
+  text-align: left;
+  padding-left: 12%
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+.imploc{
+  color: black;
+  text-decoration: none;
+  display: inline;
+}
+.imploc:hover{
+  text-decoration: none;
+  color: black;
+}
